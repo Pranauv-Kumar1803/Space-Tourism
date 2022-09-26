@@ -1,0 +1,86 @@
+body{
+    background:url('./assets//home/background-home-desktop.jpg');
+    color: #fff;
+}
+
+.navbar-in{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 50%;
+    height: 10vh;
+    background-color: rgba(163, 158, 158, 0.566);
+    position: relative;
+    left:50%;
+    opacity: 2.5;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar{
+    padding: 30px;
+}
+
+#text{
+    width:50%;
+    height:60%;
+    position: relative;
+    top:20vh;
+    left:5vw;
+    word-wrap: normal;
+    text-align: center;
+}
+
+#text>p{
+    /* width:50%; */
+    word-wrap: normal;
+    padding-top: 2%;
+    text-align: center;
+}
+
+#text>span{
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 100%;
+}
+
+#explore{
+    /* color:black; */
+    width:12vw;
+    height:25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    left:70%;
+    top:-10vh;
+    font-size: larger;
+}
+
+#explore>a{
+    color:black;
+    font-size: x-large;
+    border-color: black;
+}
+
+a:hover{
+    /* color:aqua; */
+    border-bottom-style:solid;
+    border-color: #fff;
+}
+
+a:active{
+    border-bottom-style:solid;
+    border-color: #fff;
+}
+
+a:focus{
+    border-bottom-style:solid;
+    border-color: #fff;
+}
